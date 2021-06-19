@@ -7,12 +7,12 @@ var gameState=PLAY, timer = 0;
 
 
 function preload(){
-  appleImg=loadImage("/images/apple.png")
-  bananaImg=loadImage("/images/banana.png")
-  blueberryImg=loadImage("/images/blueberry.png")
-  cherriesImg=loadImage("/images/cherries.png")
-  cutterImg=loadImage("/images/cutter.png")
-  bgImg=loadImage("/images/bg.png")
+  appleImg=loadImage("./images/apple.png")
+  bananaImg=loadImage("./images/banana.png")
+  blueberryImg=loadImage("./images/blueberry.png")
+  cherriesImg=loadImage("./images/cherries.png")
+  cutterImg=loadImage("./images/cutter.png")
+  bgImg=loadImage("./images/bg.png")
 }
 
 function setup() {
